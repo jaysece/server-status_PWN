@@ -178,7 +178,7 @@ class Response_Handler():
         # URL-related.
         soup = BeautifulSoup(response, 'lxml')
         try:
-            table_index_id = 0
+            table_index_id = 1
             VHOST_index_id = -2
             REQUEST_URI_index_id = -1
             CLIENT_IP_ADDRESS_index_id = -3
